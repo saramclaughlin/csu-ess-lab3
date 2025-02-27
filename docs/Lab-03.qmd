@@ -41,9 +41,3 @@ most_new_cases <- colorado_data %>% filter(date == my.date) %>% group_by(county)
 ```
 
 # Question 3:
-
-```{r}
-
-```
-
-
