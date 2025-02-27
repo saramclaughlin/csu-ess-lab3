@@ -154,9 +154,6 @@ The following objects are masked from 'package:base':
 <div class="cell">
 <div class="sourceCode cell-code" id="cb10"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a>most_new_cases <span class="ot">&lt;-</span> colorado_data <span class="sc">%&gt;%</span> <span class="fu">filter</span>(date <span class="sc">==</span> my.date) <span class="sc">%&gt;%</span> <span class="fu">group_by</span>(county) <span class="sc">%&gt;%</span> <span class="fu">arrange</span>(<span class="fu">desc</span>(new_cases)) <span class="sc">%&gt;%</span> <span class="fu">head</span>(<span class="at">n =</span> <span class="dv">5</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-<section id="question-3" class="level1">
-<h1>Question 3:</h1>
-</section>
 
 </main>
 <!-- /main column -->
