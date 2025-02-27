@@ -40,5 +40,10 @@ most_cum_cases <- colorado_data %>% filter(date == my.date) %>% group_by(county)
 most_new_cases <- colorado_data %>% filter(date == my.date) %>% group_by(county) %>% arrange(desc(new_cases)) %>% head(n = 5)
 ```
 
+# Question 3:
+
+```{r}
+
+```
 
 
